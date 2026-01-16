@@ -1,0 +1,46 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+/* App background */
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  color: #333;
+}
+
+/* Headings reset */
+h1, h3 {
+  margin: 0 0 16px 0;
+}
+
+/* Buttons */
+button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+.file-input input {
+  display: none;
+}

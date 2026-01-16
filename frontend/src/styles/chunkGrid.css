@@ -1,0 +1,30 @@
+.chunk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.chunk {
+  color: white;
+  font-size: 12px;
+  padding: 6px 0;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.chunk.pending {
+  background: #d1d5db;
+}
+
+.chunk.uploading {
+  background: #facc15;
+}
+
+.chunk.success {
+  background: #22c55e;
+}
+
+.chunk.error {
+  background: #ef4444;
+}
